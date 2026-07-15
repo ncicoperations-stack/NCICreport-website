@@ -1,0 +1,85 @@
+.header{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    background:#fff;
+
+    border-bottom:1px solid #e9ecef;
+
+}
+
+.header .container{
+
+    height:80px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.logo img{
+
+    width:55px;
+
+}
+
+.logo h2{
+
+    color:var(--primary);
+
+    font-size:26px;
+
+}
+
+.logo span{
+
+    font-size:13px;
+
+    color:#666;
+
+}
+
+.navbar ul{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.navbar a{
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.navbar a:hover{
+
+    color:var(--primary);
+
+}
+
+.active{
+
+    color:var(--primary);
+
+}
