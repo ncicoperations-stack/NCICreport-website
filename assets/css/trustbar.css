@@ -1,0 +1,37 @@
+.trust-bar{
+
+    background:white;
+
+    border-top:1px solid #ECECEC;
+
+    border-bottom:1px solid #ECECEC;
+
+}
+
+.trust-bar .container{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    padding:28px 0;
+
+    gap:20px;
+
+}
+
+.trust-item{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+    font-weight:600;
+
+    color:#444;
+
+}
