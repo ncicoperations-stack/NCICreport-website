@@ -19,3 +19,26 @@
     background:var(--primary-dark);
 
 }
+.btn-secondary{
+
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+
+    padding:14px 28px;
+
+    border-radius:50px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.btn-secondary:hover{
+
+    background:var(--primary);
+
+    color:white;
+
+}
